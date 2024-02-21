@@ -48,3 +48,6 @@ password: 123456
 - [X] Download image
 - [ ] View previous images
 
+
+#### Future modifications:
+The previously modified images are not available right now. But it can be easily added by using firebase db. A rough plan could be to upload the modified image to fibasebase storage and persist a mapping of the userId, inputImage, outputImage in the firebase db to maintain a history.
