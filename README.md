@@ -44,7 +44,7 @@ password: 123456
 
 ## Project Features:
 - [X] Auth done with firebase but without signup (sample user is provided)
-- [x] Upload image to firebase and apply effect with replicate
+- [X] Upload image to firebase and apply effect with replicate
 - [X] Download image
 - [ ] View previous images
 

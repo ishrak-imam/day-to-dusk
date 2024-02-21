@@ -205,12 +205,24 @@ export default function HomePage() {
       <div className="flex flex-col">
         <div className="w-full md:w-1/3">
           <div className="mt-10">
+            <Typography color="text-emerald-700">Output:</Typography>
             {isLoading ? (
               <div className="flex justify-center mt-20">
                 <LoadingIndicator />
               </div>
             ) : result ? (
-              <img alt="Dusk image" src={result} />
+              <div className="space-y-2">
+                <img alt="Dusk image" src={result} />
+                <div className="flex justify-end">
+                  <a
+                    className="text-emerald-700"
+                    href={result}
+                    download="dusk_image.png"
+                  >
+                    Download Image
+                  </a>
+                </div>
+              </div>
             ) : error.isError ? (
               <div className="flex justify-center mt-20">
                 <Typography color="text-red-800">{error.msg}</Typography>

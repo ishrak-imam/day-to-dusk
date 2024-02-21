@@ -19,14 +19,17 @@ export function useDayToDusk() {
             setResult(replicateImage);
           })
           .catch(() => {
-            setError({ isError: true, msg: "Failed to replicate image" });
+            setError({
+              isError: true,
+              msg: "Failed to replicate image, try again",
+            });
           })
           .finally(() => {
             setIsLoading(false);
           });
       })
       .catch(() => {
-        setError({ isError: true, msg: "Failed to upload image" });
+        setError({ isError: true, msg: "Failed to upload image, try again" });
       });
   }, []);
 
