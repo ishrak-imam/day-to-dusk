@@ -11,9 +11,8 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "OnePager Lab — Corporate Attentiveness",
-  description:
-    "An app to facilitate HR employees to better focus on corporate attentiveness.",
+  title: "Day to dusk",
+  description: "Day to dusk app.",
 };
 
 export default function RootLayout({

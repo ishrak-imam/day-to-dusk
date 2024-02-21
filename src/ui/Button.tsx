@@ -68,7 +68,7 @@ export const styles = cva(
         secondary: [
           "text-emerald-700",
           "hover:bg-gray-300",
-          "active:bg-gray-700",
+          "active:bg-gray-400",
           "active:text-white",
           "border-gray-400",
           "rounded-md",
