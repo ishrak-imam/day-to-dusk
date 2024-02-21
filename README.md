@@ -34,3 +34,15 @@ yarn && yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+Sample user:
+email: `user0@example.com`
+password: `123456`
+
+
+## Project Features:
+- [X] Auth done with firebase but without signup (sample user is provided)
+- [x] Upload image to firebase and apply effect with replicate
+- [X] Download image
+- [ ] View previous images
+
