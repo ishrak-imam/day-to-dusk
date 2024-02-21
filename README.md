@@ -35,9 +35,11 @@ yarn && yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Sample user:
-email: `user0@example.com`
-password: `123456`
+## Sample user
+```
+email: user0@example.com
+password: 123456
+```
 
 
 ## Project Features:
