@@ -1,7 +1,7 @@
 ## Day to dusk
 This is a simple app to apply dust effect to property images using the [Replicate](https://replicate.com/).
 
-First upload and image which is stored in firebase, and an image url is retrieved. Some configurations from the user is taken and using rhe Replicate api the effects are applied.
+First upload and image which is stored in firebase, and an image url is retrieved. Some configurations from the user is taken and using the Replicate api the effects are applied.
 
 Input             |  Output
 :-------------------------:|:-------------------------:
@@ -50,4 +50,4 @@ password: 123456
 
 
 #### Future modifications:
-The previously modified images are not available right now. But it can be easily added by using firebase db. A rough plan could be to upload the modified image to fibasebase storage and persist a mapping of the userId, inputImage, outputImage in the firebase db to maintain a history.
+- The previously modified images are not available right now. But it can be easily added by using firebase db. A rough plan could be to upload the modified image to fibasebase storage and persist a mapping of the userId, inputImage, outputImage in the firebase db to maintain a history.
